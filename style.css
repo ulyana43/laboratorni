@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #005096;
+
+}
+
+.menu {
+    width: 1000px;
+    margin: 0 auto;
+    list-style: none;
+    background-color: #1c1c1cca;
+    height: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 10px 0px 10px;
+    font-family: Arial;
+    line-height: 50px;
+    display: block;
+    border-right: 1px solid #ffffff5e;
+
+}
+
+.menu li:hover {
+    text-decoration: underline;
+    background: #161616a4;
+}
+
+.menu li {
+    float: left;
+}
+
+.wrap {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.left_wrap {
+    width: 300px;
+    background-color: #00aca0;
+}
+
+img {
+    display: block;
+    width: 190px;
+    height: 190px;
+    margin: 0 auto;
+}
+
+.img {
+    background-color: white;
+    width: 200px;
+    height: 255px;
+    margin: 25px auto 0 auto;
+    padding: 5px;
+    border-radius: 7px;
+    text-align: center;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name_surname {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.profession {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.contact,
+.contact_language {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #cdcdcd;
+    ;
+    font-size: 20px;
+    width: 80%;
+    margin: 20px auto 30px auto;
+    padding: 0 0 5px 15px;
+}
+
+.chain p {
+    margin: 0 30px 20px 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.chain p a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e9e9e9;
+}
+
+.lab_menu {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.lab_menu a,
+.Lab {
+    display: block;
+    width: 80%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    font-size: 20px;
+    border: 1px solid #606060;
+    border-radius: 5px;
+    margin: 3px auto 0 auto;
+}
+
+.Lab {
+    background-color: #979797;
+}
+
+.lab_menu a:hover {
+    background-color: #b6b5b6;
+}
+
+.right_wrap {
+    width: 700px;
+    background-color: white;
+}
+
+.right_name {
+    text-align: right;
+    color: #616161;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 30px 0 0;
+}
+
+.right_name .name_surname {
+    color: #9b9b9b;
+    font-size: 35px;
+}
+
+.right_name .profession {
+    font-size: 20px;
+}
+
+.profesion_line {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid gray;
+    width: 90%;
+    margin: 10px auto;
+    font-size: 20px;
+    padding-left: 25px;
+    color: #333333;
+}
+
+.opus {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #4b4b4b;
+}
+
+.header .position li,
+.header .position li,
+.header .contributed_position li,
+.header .contributed_position li {
+    margin-left: 30px;
+}
+
+.header h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+.opus h2 {
+    margin: 20px 0 0 0;
+}
+
+.contact_language {
+    margin: 20px auto 7px auto;
+}
+
+.opus_countri {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 5px;
+    color: #ffffff;
+    font-size: 15px;
+}
